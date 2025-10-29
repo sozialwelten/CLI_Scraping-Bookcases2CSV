@@ -16,7 +16,7 @@ def get_wikipedia_lists():
       ?item wdt:P361+ wd:Q19971565 .
       ?article schema:about ?item ;
                schema:inLanguage "de" ;
-               schema:isPartOf <https://de.wikipedia.org/> .
+               schema:isPartOf <https://de.wikipedia.org/>
       SERVICE wikibase:label { bd:serviceParam wikibase:language "de" . }
     }
     """
